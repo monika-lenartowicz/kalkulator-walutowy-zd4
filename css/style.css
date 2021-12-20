@@ -1,0 +1,35 @@
+html {
+   box-sizing: border-box;
+
+}
+
+*, ::after, ::before {
+   box-sizing: inherit;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+   max-width: 700px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.form__button {
+   width: 100%;
+   border: none;
+   padding: 20px;
+   border-radius: 8px;
+   background-color: hsl(219, 85%, 34%);
+   color: rgb(255, 255, 117);
+}
+
+.form__button:hover {
+   background-color: hsl(219, 85%, 55%);
+}
+
+.form__button:active {
+   background-color: hsl(219, 85%, 65%)
+}
