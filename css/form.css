@@ -1,3 +1,25 @@
+.form {
+   margin-top: 50px;
+}
+
+.form__button {
+   width: 100%;
+   border: none;
+   padding: 20px;
+   border-radius: 8px;
+   background-color: hsl(219, 85%, 34%);
+   color: rgb(255, 255, 117);
+}
+
+.form__button:hover {
+   background-color: hsl(219, 85%, 55%);
+}
+
+.form__button:active {
+   background-color: hsl(219, 85%, 65%)
+}
+
+
 .form__labelText {
    max-width: 250px;
    width: 100%;
@@ -5,9 +27,15 @@
    margin-right: 5px;
 }
 
+.form__legend {
+   background-color: hsl(219, 85%, 34%);
+   color: rgb(255, 255, 117);
+   padding: 20px;
+   border-radius: 8px;
+}
+
 .form__field {
    border: 2px solid #626262;
-   ;
    padding: 10px;
    max-width: 250px;
    width: 100%;
@@ -23,24 +51,15 @@
    background-color: hsl(219, 53%, 81%);
 }
 
-.form__legend {
-   background-color: hsl(219, 85%, 34%);
-   color: rgb(255, 255, 117);
-   padding: 20px;
-   border-radius: 8px;
-}
-
 .form__result {
    padding: 20px;
    background-color: hsl(219, 53%, 81%);
    border-radius: 8px;
    text-align: center;
-
 }
 
 .form__result--result {
    color: hsl(0, 100%, 18%);
    font-style: italic;
    font-size: 24px;
-
 }

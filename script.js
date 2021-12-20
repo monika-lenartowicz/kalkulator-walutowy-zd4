@@ -3,7 +3,6 @@ let current = document.querySelector(".js-current");
 let form = document.querySelector(".js-form");
 let result = document.querySelector(".js-result");
 
-
 form.addEventListener("submit", (event) => {
    event.preventDefault();
 

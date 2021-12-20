@@ -1,6 +1,5 @@
 html {
    box-sizing: border-box;
-
 }
 
 *, ::after, ::before {
@@ -9,28 +8,14 @@ html {
 
 body {
    font-family: 'Montserrat', sans-serif;
+   background-image: url("../counting-money.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 .container {
    max-width: 700px;
-   margin: 20px auto;
-   background-image: url("../counting-money.jpg");
-
-}
-
-.form__button {
-   width: 100%;
-   border: none;
-   padding: 20px;
-   border-radius: 8px;
-   background-color: hsl(219, 85%, 34%);
-   color: rgb(255, 255, 117);
-}
-
-.form__button:hover {
-   background-color: hsl(219, 85%, 55%);
-}
-
-.form__button:active {
-   background-color: hsl(219, 85%, 65%)
+   margin: 0 auto;
+   height: 100vh;
 }
