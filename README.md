@@ -8,4 +8,4 @@ https://monika-lenartowicz.github.io/kalkulator-walutowy-zd4/
 
 Bardzo prosty przelicznik walut.
 
-[![name]()](https://monika-lenartowicz.github.io/kalkulator-walutowy-zd4/images/currency_calculator.png)
+![calculator](https://github.com/monika-lenartowicz/kalkulator-walutowy-zd4/blob/main/images/currency_calculator.png?raw=true)
